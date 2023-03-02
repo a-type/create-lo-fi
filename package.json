@@ -1,0 +1,26 @@
+{
+  "name": "@lo-fi/create-lo-fi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "create-lo-fi": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Grant Forrest",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.5.1",
+    "cp-tpl": "^1.0.9",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "typescript": "^4.9.5"
+  }
+}
