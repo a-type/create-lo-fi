@@ -1,10 +1,10 @@
 {
-  "name": "@lo-fi/create-lo-fi",
+  "name": "@lo-fi/create-app",
   "version": "0.1.0",
   "description": "",
   "main": "dist/index.js",
   "bin": {
-    "create-lo-fi": "dist/index.js"
+    "create-app": "dist/index.js"
   },
   "type": "module",
   "scripts": {
