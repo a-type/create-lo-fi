@@ -7,8 +7,14 @@ export function HomePage({}: HomePageProps) {
   return (
     <div>
       <h1>Hello lo-fi!</h1>
-      <Link to="/join">Login or sign up</Link>
-      <Link to="/settings">Settings</Link>
+      <ul>
+        <li>
+          <Link to="/join">Login or sign up</Link>
+        </li>
+        <li>
+          <Link to="/settings">Settings</Link>
+        </li>
+      </ul>
       <TodoList />
     </div>
   );
